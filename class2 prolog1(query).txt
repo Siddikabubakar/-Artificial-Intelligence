@@ -1,0 +1,7 @@
+a)animal(mammal,A,_,_).
+
+b)animal(mammal,A,carnivore,_).
+
+c)animal(mammal,A,_,stripes).
+
+d)animal(reptile,A,_,mane).

@@ -1,0 +1,34 @@
+?-write(hello).
+output: hello
+        yes
+
+?-write(Hello).
+output: _2550
+	yes
+
+?-write('Hello!').
+output: Hello!
+	yes
+
+?-write('Hello!'),nl.
+output: Hello!
+	yes
+	newline
+
+?-100=100.
+output: true
+
+?-100=1000/10.
+output: true
+
+?-100 is 1000/10.
+output: true
+
+?-1000 is 100*10.
+output: true
+
+?-2 is (5+7)/6.
+output: true
+
+?-74 is (5+7)*6.
+output: false
